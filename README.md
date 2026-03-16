@@ -6,9 +6,7 @@ The project integrates multiple datasets and applies **SQL analytics techniques*
 
 The entire analysis has been carried out using **Microsoft SQL Server**.
 
----
-
-# 🚀 Project Overview
+## 🚀 Project Overview
 
 Using exploratory data analysis on warehouse sales data, this project examines **sales trends, customer spending behavior, and product performance** across multiple dimensions.
 
@@ -19,9 +17,7 @@ By analyzing **60K+ transactions across 18K+ customers and 295 products**, the p
 - Product category performance
 - Sales distribution across customers and products
 
----
-
-# 🗂 Dataset Overview
+## 🗂 Dataset Overview
 
 The project uses **three relational datasets**.
 
@@ -57,7 +53,7 @@ Contains transaction-level sales data.
 
 **Total Records:** 60,398 transactions
 
-# 🏗 Data Model
+## 🏗 Data Model
 
 The project follows a **simple star-schema structure**.
 ```
@@ -66,9 +62,8 @@ The project follows a **simple star-schema structure**.
                  │
 dim_products──fact_sales
 ```
----
 
-# 📈 Analysis Performed
+## 📈 Analysis Performed
 
 ### 1️⃣ Sales Trend Analysis
 Analyzed monthly sales performance and revenue patterns over time.
@@ -94,8 +89,8 @@ Analyzed customer purchasing behavior to compute:
 - First purchase date
 - Most recent purchase date
 - Customer lifespan
----
-# 👥 Customer Segmentation
+
+## 👥 Customer Segmentation
 
 Customers were segmented based on **spending and purchase lifespan**.
 
@@ -107,9 +102,7 @@ Customers were segmented based on **spending and purchase lifespan**.
 
 This segmentation helped to identify **high-value customers and retention opportunities**.
 
----
-
-# 🧾 Analytical Views Created
+## 🧾 Analytical Views
 
 To simplify reporting and downstream analysis, two analytical views were created.
 
@@ -122,9 +115,7 @@ Aggregated customer-level metrics including:
 - Last purchase date
 - Customer lifespan
 
-A glimpse of the view:
-
----
+A glimpse of the view: https://github.com/DipeanDas/Warehouse_Sales_Data_Analysis/blob/main/Datasets/View/cr_ss.png
 
 ### Product Report View
 
@@ -134,9 +125,9 @@ Aggregated product-level performance metrics including:
 - Total quantity sold
 - Product category performance
 
-A glimpse of the view:
+A glimpse of the view: https://github.com/DipeanDas/Warehouse_Sales_Data_Analysis/blob/main/Datasets/View/pr_ss.png
 
-# 📁 Project Structure
+## 📁 Project Structure
 ```
 Warehouse_Sales_Data_Analysis
 │
@@ -159,15 +150,11 @@ Warehouse_Sales_Data_Analysis
 ├── LICENSE
 └── README.md
 ```
----
-
-# 🛠 Tools Used
+## 🛠 Tools Used
 
 - **SQL Server**
 - **T-SQL**
 - **SQL Server Management Studio (SSMS)**
-
----
 
 # 👨‍💻 Author
 
